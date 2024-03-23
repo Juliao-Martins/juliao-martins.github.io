@@ -19,7 +19,7 @@ export default function Gallery() {
     "./img/8.jpg",
   ];
 
-  const FAST_DURATION = 15;
+  const FAST_DURATION = 25;
   const SLOW_DURATION = 75;
 
   const x = useMotionValue(0);

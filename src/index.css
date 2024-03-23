@@ -150,7 +150,7 @@
 
   /* gallery */
   .gallery_container {
-    @apply relative left-0 flex gap-5;
+    @apply absolute left-0 flex gap-5;
   }
 
   .card_image {
@@ -166,7 +166,7 @@
   }
 
   .footer {
-    @apply bg-slate-950 text-orange-500 flex flex-col sm:flex-row sm:justify-between items-center text-sm p-3 sm:p-0 sm:px-4;
+    @apply bg-slate-950 text-orange-500 flex flex-col sm:flex-row sm:justify-between items-center text-sm p-3 sm:p-0 sm:px-4 mt-80;
   }
 
   .footer_header {
