@@ -16,6 +16,7 @@ export default function Gallery() {
     "./img/5.jpg",
     "./img/6.jpg",
     "./img/7.jpg",
+    "./img/8.jpg",
   ];
 
   const FAST_DURATION = 15;
@@ -143,11 +144,7 @@ function CardImage({ img }) {
           </motion.div>
         )}
       </AnimatePresence>
-      <img
-        src={img}
-        alt={img}
-        className="w-full h-full object-cover hover:animate-pulse"
-      />
+      <img src={img} alt={img} className="w-full h-full object-cover" />
     </motion.div>
   );
 }
