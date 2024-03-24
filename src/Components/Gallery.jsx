@@ -19,7 +19,7 @@ export default function Gallery() {
     "./img/8.jpg",
   ];
 
-  const FAST_DURATION = 25;
+  const FAST_DURATION = 50;
   const SLOW_DURATION = 75;
 
   const x = useMotionValue(0);
@@ -65,7 +65,7 @@ export default function Gallery() {
           programasaun iha web, ho ami
         </p>
       </section>
-      <section className="py-8">
+      <section className="py-8 overflow-x-hidden">
         <motion.section
           className="gallery_container"
           ref={ref}

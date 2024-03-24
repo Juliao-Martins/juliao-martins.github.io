@@ -68,7 +68,7 @@
 
   /* header */
   .header_container {
-    @apply container mx-auto p-6 bg-white flex flex-col sm:flex-row justify-evenly items-center gap-4;
+    @apply mx-auto p-6 bg-white flex flex-col sm:flex-row justify-center items-center h-svh sm:h-auto;
   }
 
   .header_typewritter {
@@ -80,7 +80,7 @@
   }
 
   .header_image {
-    @apply text-center;
+    @apply text-center sm:basis-[50%] basis-[100%];
   }
 
   .image_me {
